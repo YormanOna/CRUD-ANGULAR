@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 100
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 200
+    },
+    {
+      "id": "3",
+      "name": "Hola",
+      "price": "34"
+    },
+    {
+      "id": "56",
+      "name": "dfdffddfssdaf",
+      "price": "4"
+    },
+    {
+      "id": "18",
+      "name": "opiioioj",
+      "price": "4"
+    },
+    {
+      "id": "31",
+      "name": "sdsdfsdsdfsd",
+      "price": "34"
+    }
+  ]
+}

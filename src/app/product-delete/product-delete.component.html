@@ -1,0 +1,11 @@
+<h2>Delete Product</h2>
+
+<div *ngIf="product">
+  <p>Are you sure you want to delete the product "{{ product.name }}"?</p>
+  <button class="btn btn-danger" (click)="deleteProduct()">Yes, Delete</button>
+  <button class="btn btn-secondary" (click)="cancel()">Cancel</button>
+</div>
+
+<div *ngIf="!product">
+  <p>Loading...</p>
+</div>
