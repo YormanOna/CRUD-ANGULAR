@@ -1,27 +1,64 @@
-# CrudAngular
+# Angular CRUD Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+## Descripción
 
-## Development server
+Este proyecto es una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) desarrollada con Angular. La aplicación permite gestionar una lista de productos, incluyendo la funcionalidad de agregar, editar y eliminar productos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características
 
-## Code scaffolding
+- **Crear Producto:** Permite agregar nuevos productos con nombre y precio.
+- **Leer Productos:** Muestra una lista de productos disponibles.
+- **Actualizar Producto:** Permite editar la información de un producto existente.
+- **Eliminar Producto:** Permite eliminar un producto de la lista.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologías Utilizadas
 
-## Build
+- **Angular:** Framework principal para la construcción de la aplicación.
+- **JSON Server:** Simula una API REST para el almacenamiento de productos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Requisitos Previos
 
-## Running unit tests
+Asegúrate de tener instaladas las siguientes herramientas en tu entorno de desarrollo:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Node.js](https://nodejs.org/) (versión 12 o superior)
+- [Angular CLI](https://angular.io/cli) (versión 12 o superior)
+- [JSON Server](https://www.npmjs.com/package/json-server)
 
-## Running end-to-end tests
+## Instalación y Configuración
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Sigue estos pasos para configurar y ejecutar la aplicación en tu entorno local:
 
-## Further help
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
+2. **Instala las dependencias del proyecto:**
+   ```bash
+   npm install
+3. **Tener instalado json-server**
+    ```bash
+    npm install -g json-server
+    ```
+3. **Iniciar json-server**
+    ```bash
+    npx json-server db.json
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Uso
+
+### Crear un Producto
+
+1. Navega a la sección de agregar productos.
+2. Completa el formulario con el nombre y precio del producto.
+3. Haz clic en el botón "Add Product" para agregar el nuevo producto a la lista.
+
+### Editar un Producto
+
+1. En la lista de productos, haz clic en el botón "Edit" junto al producto que deseas editar.
+2. Realiza los cambios necesarios en el formulario.
+3. Haz clic en el botón "Update" para guardar los cambios.
+
+### Eliminar un Producto
+
+1. En la lista de productos, haz clic en el botón "Delete" junto al producto que deseas eliminar.
+2. Confirma la eliminación en el cuadro de diálogo que aparece.
